@@ -9,10 +9,12 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
+		<link rel="stylesheet" href="polygon.css" type="text/css"/>
     </head>
     <body>
-        <svg height="600" width="800">
-		<circle cx="450" cy="240" r="200" stroke="black" stroke-width="3" fill="red" />
+       <div class="container"> 
+	   <svg height="600" width="800">
+		<circle cx="450" cy="240" r="200" stroke="#FFC90F" stroke-width="5" fill="red" />
 		
 		<polygon points="570,60 510,150 470,190 430,190" fill="#8E0000" stroke="#D9B90C" stroke-width="5" />
 		<polygon points="510,150 540,150 450,260 400,260" fill="#8E0000" stroke="#D9B90C" stroke-width="5"/>
@@ -28,6 +30,8 @@
 		
 		
 		</svg>
+		</div>
+		
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
